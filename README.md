@@ -12,7 +12,7 @@ You will need to convert the HTML from this site, [React Portfolio Part 1](https
 
 ```
 - PortfolioFixed
-- ProfileContent
+- PortfolioContent
   - Header
   - Summary
   - ContactInfo
