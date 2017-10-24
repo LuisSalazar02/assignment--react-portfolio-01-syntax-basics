@@ -64,53 +64,55 @@ npm start
 ### The Component Structure
 ![demo](demo/react-portfolio-basics-components.png)
 
-### Site HTML
+### Original Site HTML
 ```html
-<!-- App  -->
-<div id="app-container">
+<body>
+  <!-- App  -->
+  <div id="app-container">
 
-  <!-- PortfolioFixed (left-column) -->
-  <div class="portfolio-fixed">
-      <img src="https://s3.amazonaws.com/uifaces/faces/twitter/jina/128.jpg"/>
-      <h1>María Santiago</h1>
-      <p>Developer | Mother</p>
+    <!-- PortfolioFixed (left-column) -->
+    <div class="portfolio-fixed">
+        <img src="https://s3.amazonaws.com/uifaces/faces/twitter/jina/128.jpg"/>
+        <h1>María Santiago</h1>
+        <p>Developer | Mother</p>
+    </div>
+
+    <!-- PortfolioContent (right-column) -->
+    <div class="portfolio-content">
+        <!-- Header -->
+        <header>
+          <h2>Portfolio</h2>
+        </header>
+
+        <!-- Summary -->
+        <section>
+          <h4>Summary</h4>
+          <p>I am a designer and full stack developer with a primary focus on the front-end. I have worked on all layers of a project from implementing designer mockups, custom animations, and building APIs.</p>
+        </section>
+
+        <!-- ContactInfo -->
+        <section>
+          <div class="contactinfo">
+            <a class="contactinfo__single" target="_blank">
+              <i class="ion-ios-location-outline contactinfo__icon"></i>
+              <span class="contactinfo__title">Austin, TX USA</span>
+            </a>
+            <a href="#" class="contactinfo__single" target="_blank">
+              <i class="ion-ios-email-outline contactinfo__icon"></i>
+              <span class="contactinfo__title">mariasantiago1989@gmail.com</span>
+            </a>
+            <a href="#" class="contactinfo__single" target="_blank">
+              <i class="ion-social-github-outline contactinfo__icon"></i>
+              <span class="contactinfo__title">devmaria</span>
+            </a>
+            <a href="#" class="contactinfo__single" target="_blank">
+              <i class="ion-social-linkedin-outline contactinfo__icon"></i>
+              <span class="contactinfo__title">maria-x-santi</span>
+            </a>
+          </div>
+        </section>
+    </div>
+
   </div>
-
-  <!-- PortfolioContent (right-column) -->
-  <div class="portfolio-content">
-      <!-- Header -->
-      <header>
-        <h2>Portfolio</h2>
-      </header>
-
-      <!-- Summary -->
-      <section>
-        <h4>Summary</h4>
-        <p>I am a designer and full stack developer with a primary focus on the front-end. I have worked on all layers of a project from implementing designer mockups, custom animations, and building APIs.</p>
-      </section>
-
-      <!-- ContactInfo -->
-      <section>
-        <div class="contactinfo">
-          <a class="contactinfo__single" target="_blank">
-            <i class="ion-ios-location-outline contactinfo__icon"></i>
-            <span class="contactinfo__title">Austin, TX USA</span>
-          </a>
-          <a href="#" class="contactinfo__single" target="_blank">
-            <i class="ion-ios-email-outline contactinfo__icon"></i>
-            <span class="contactinfo__title">mariasantiago1989@gmail.com</span>
-          </a>
-          <a href="#" class="contactinfo__single" target="_blank">
-            <i class="ion-social-github-outline contactinfo__icon"></i>
-            <span class="contactinfo__title">devmaria</span>
-          </a>
-          <a href="#" class="contactinfo__single" target="_blank">
-            <i class="ion-social-linkedin-outline contactinfo__icon"></i>
-            <span class="contactinfo__title">maria-x-santi</span>
-          </a>
-        </div>
-      </section>
-  </div>
-
-</div>
+</body>
 ```
