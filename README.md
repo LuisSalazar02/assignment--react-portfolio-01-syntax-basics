@@ -28,20 +28,20 @@ npm install -g create-react-app
 # (2) Navigate to your assignments directory
 cd ~/Documents/muktek/assignments
 
-# (3) create the application and cd into it
+# (3) create the application and cd into it, then cd into project's src/ directory
 create-react-app assignment--react-basics-portfolio
 
 cd assignment--react-basics-portfolio
 
 # (4) Download project files INTO the `src/` directory
 #     and unzip from INSIDE the src directory
-curl https://raw.githubusercontent.com/muktek/assignment--react-portfolio-01-syntax-basics/master/project-files.zip > src/project-files.zip
-
 cd src
+
+curl https://raw.githubusercontent.com/muktek/assignment--react-portfolio-01-syntax-basics/master/project-files.zip > project-files.zip
 
 unzip project-files.zip
 
-# (5) return to project root diretory and start the react task runner
+# (5) return to project root directory and start the react task runner
 cd ..
 npm start
 ```
@@ -61,7 +61,7 @@ npm start
       ```
   - For project styles:  
     - You will need to import the project styles (`css/styles.css`) into the `index.js` file (you will use these styles in place of `index.css`).
-    - You will need to remove the styles imported from `App.css"` in `App.js`. 
+    - You will need to remove the styles imported from `App.css"` in `App.js`.
 
 
 ### The Component Structure
