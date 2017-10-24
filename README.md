@@ -30,13 +30,11 @@ cd ~/Documents/muktek/assignments
 
 # (3) create the application and cd into it, then cd into project's src/ directory
 create-react-app assignment--react-basics-portfolio
-
 cd assignment--react-basics-portfolio
 
 # (4) Download project files INTO the `src/` directory
 #     and unzip from INSIDE the src directory
 cd src
-
 curl https://raw.githubusercontent.com/muktek/assignment--react-portfolio-01-syntax-basics/master/project-files.zip > project-files.zip
 
 unzip project-files.zip
