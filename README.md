@@ -46,7 +46,18 @@ cd ..
 npm start
 ```
 
-2. Additional Configuration: You will need to import the project styles (`css/styles.css`) into the `index.js` file (you will use these styles in place of `index.css`).
+2. Additional Configuration:
+  - For fonts + icons: the files are loaded from a CDN in the `<head>` of the `index.html` inside the `public/` directory.
+    - in `public/index.html`
+    ```html
+    <head>
+      ...
+      <title>Portfolio</title>
+      <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    </head>
+    ```
+  - For project styles:  You will need to import the project styles (`css/styles.css`) into the `index.js` file (you will use these styles in place of `index.css`).
 
 
 ### The Component Structure
@@ -54,6 +65,7 @@ npm start
 
 ### Site HTML
 ```html
+<!-- App  -->
 <div id="app-container">
 
   <!-- PortfolioFixed (left-column) -->
