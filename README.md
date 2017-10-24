@@ -47,18 +47,21 @@ npm start
 ```
 
 2. Additional Configuration:
-  - For fonts + icons: The project uses Poppins font family (from Google Fonts) and [ionicons](http://ionicons.com/) for icon fonts.
-  - You will need to link to the files from a CDN in the `<head>` of the `index.html` inside the `public/` directory.
+  - For fonts + icons:
+    - The project uses Poppins font family (from Google Fonts) and [ionicons](http://ionicons.com/) for icon fonts.
+    - You will need to link to the files from a CDN in the `<head>` of the `index.html` inside the `public/` directory.
     - in `public/index.html`
-    ```html
-    <head>
-      ...
-      <title>Portfolio</title>
-      <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    </head>
-    ```
-  - For project styles:  You will need to import the project styles (`css/styles.css`) into the `index.js` file (you will use these styles in place of `index.css`).
+      ```html
+      <head>
+        ...
+        <title>Portfolio</title>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+      </head>
+      ```
+  - For project styles:  
+    - You will need to import the project styles (`css/styles.css`) into the `index.js` file (you will use these styles in place of `index.css`).
+    - You will need to remove the styles imported from `App.css"` in `App.js`. 
 
 
 ### The Component Structure
