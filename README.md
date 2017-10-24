@@ -47,7 +47,9 @@ npm start
 ```
 
 2. Additional Configuration:
-  - For fonts + icons: the files are loaded from a CDN in the `<head>` of the `index.html` inside the `public/` directory.
+  - For fonts + icons: The project uses Poppins font family (from Google Fonts) and [ionicons](http://ionicons.com/) for icon fonts.
+
+  You will need to link to the files from a CDN in the `<head>` of the `index.html` inside the `public/` directory.
     - in `public/index.html`
     ```html
     <head>
