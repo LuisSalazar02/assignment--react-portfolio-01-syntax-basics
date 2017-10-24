@@ -44,7 +44,6 @@ unzip project-files.zip
 # (5) return to project root diretory and start the react task runner
 cd ..
 npm start
-
 ```
 
 2. Additional Configuration: You will need to import the project styles (`css/styles.css`) into the `index.js` file (you will use these styles in place of `index.css`).
