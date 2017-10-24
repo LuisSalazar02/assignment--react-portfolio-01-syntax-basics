@@ -19,10 +19,36 @@ You will need to convert the HTML from this site, [React Portfolio Part 1](https
 ```
 
 ### Setup Instructions
-1. Create react app
-2. Remove default project files
-3. Load project css into index.css
-4. Create the components using the HTML structure below
+
+1. Project Setup from Terminal
+```sh
+# (1) Install create-react-app as a global command-line application
+npm install -g create-react-app
+
+# (2) Navigate to your assignments directory
+cd ~/Documents/muktek/assignments
+
+# (3) create the application and cd into it
+create-react-app assignment--react-basics-portfolio
+
+cd assignment--react-basics-portfolio
+
+# (4) Download project files INTO the `src/` directory
+#     and unzip from INSIDE the src directory
+curl https://raw.githubusercontent.com/muktek/assignment--react-portfolio-01-syntax-basics/master/project-files.zip > src/project-files.zip
+
+cd src
+
+unzip project-files.zip
+
+# (5) return to project root diretory and start the react task runner
+cd ..
+npm start
+
+```
+
+2. Additional Configuration: You will need to import the project styles (`css/styles.css`) into the `index.js` file (you will use these styles in place of `index.css`).
+
 
 ### The Component Structure
 ![demo](demo/react-portfolio-basics-components.png)
