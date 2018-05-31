@@ -26,7 +26,7 @@ You will need to convert the HTML from this site, [React Portfolio Part 1](https
 npm install -g create-react-app
 
 # (2) Navigate to your assignments directory
-cd ~/Documents/muktek/assignments
+cd ~/muktek/assignments
 
 # (3) create the application and cd into it
 create-react-app assignment--react-basics-portfolio
@@ -58,6 +58,7 @@ npm start
   - For project styles:  
     - You will need to import the project styles (`css/styles.css`) into the `index.js` file (you will use these styles in place of `index.css`).
     - You will need to remove the styles imported from `App.css"` in `App.js`.
+    
 
 
 ### The Component Structure
